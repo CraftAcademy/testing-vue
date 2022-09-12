@@ -1,9 +1,11 @@
 <script setup>
-import App from '../App.vue';
+import PolarAnimalList from '../components/PolarAnimalList.vue';
+import MouseBox from '../components/MouseBox.vue';
 </script>
 
 <template>
   <main>
-    <App />
+    <PolarAnimalList />
+    <MouseBox />
   </main>
 </template>
